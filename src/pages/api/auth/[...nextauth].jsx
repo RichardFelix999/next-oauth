@@ -15,7 +15,7 @@ export default NextAuth({
   ],
   callbacks: {
     async redirect({ url, baseUrl }) {
-      return "/dashboard";
+      return "https://rickyatai-next-auth.onrender.com/dashboard";
     },
   },
 });
